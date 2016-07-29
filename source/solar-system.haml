@@ -1,0 +1,63 @@
+---
+layout: "solar-system-layout"
+title: Elliot Dahl Designs
+---
+
+%section#space
+  .container
+    .twelve.columns
+      .solarsystem
+        .sun
+        /
+          <div class="p-wrapper">
+          <div class="planet" ></div>
+          </div>
+        .mercury-wrapper
+          .planet
+        .venus-wrapper
+          .planet
+        .earth-wrapper
+          .planet
+  .container
+    .row
+      .eight.columns.offset-by-two
+        %h2.text-center The Solar System
+        %p I set out to create a 3D representation of our solar system in CSS. By spinning a box between two points I was able to create an ellipse with the magic of CSS3 Animations. The different planet's speed and size are realistically relative to each other. The sun had to be scaled down to fit it into the page. The actual scale of the sun at this size should be 1174px wide instead of the 100px shown.
+        %p
+          The animation was created using 4 main keyframe steps. The frames have ease-in and ease-out timing functions between them in attempt to emulate the slowing of a 3D orbit on the sides. I am utilizing hardware acceleration to keep the animations looking smooth so older computers may begin to heat up. I do realize that I am now actively participating in
+          %a{:href => "https://en.wikipedia.org/wiki/Heat_death_of_the_universe"} the heat death
+          of the universe. Please limit your viewing time accordingly.
+  .container
+    .twelve.columns
+      .solarsystem
+        .sun
+        /
+          <div class="p-wrapper" style="outline:solid 1px green">
+          <div class="planet"></div>
+          </div>
+        .mercury-wrapper{:style => "outline:solid 1px green"}
+          .planet
+        .venus-wrapper{:style => "outline:solid 1px green"}
+          .planet
+        .earth-wrapper{:style => "outline:solid 1px green"}
+          .planet
+%section#contact
+  .container
+    .row
+      .twelve.columns.text-center
+        %h2{:style => "color:#fff;"} Contact
+      .eight.columns.offset-by-two.text-center.contact-icons
+        %a{:href => "https://twitter.com/Elliotdahl", :target => "_blank"}
+          %i.fa.fa-twitter
+        %a{:href => "https://instagram.com/elliotdahl/", :target => "_blank"}
+          %i.fa.fa-instagram
+        %a{:href => "https://dribbble.com/Elliotdahl", :target => "_blank"}
+          %i.fa.fa-dribbble
+        %a{:href => "https://vimeo.com/elliotdahl", :target => "_blank"}
+          %i.fa.fa-vimeo-square
+        %a{:href => "http://elliotdahl.tumblr.com/", :target => "_blank"}
+          %i.fa.fa-tumblr
+        %a{:href => "https://www.linkedin.com/in/elliotdahl", :target => "_blank"}
+          %i.fa.fa-linkedin
+
+=partial 'shared/footer'

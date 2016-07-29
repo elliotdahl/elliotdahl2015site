@@ -1,0 +1,48 @@
+//typography
+
+$font-merriweather: 'Merriweather', serif;
+$font-merriweather-sans: 'Merriweather Sans', sans-serif;
+$font-lato: 'Lato', sans-serif;
+
+.format_text12 {
+	font-size:12px;
+}
+.format_text, p {
+	font-size:1.6rem;
+}
+.format_text16 {
+	font-size:16px;
+}
+.format_text18 {
+	font-size:1.8rem;
+}
+.format_text20 {
+	font-size:20px;
+}
+.format_text22 {
+	font-size:22px;
+}
+.format_text26 {
+	font-size:26px;
+}
+.text-left {
+	text-align:left;
+}
+.text-right {
+	text-align:right;
+}
+.text-center {
+	text-align:center;
+}
+.bold {
+	font-weight:bold;
+}
+
+a {
+	color:$ed-blue;
+}
+
+
+.dk-bluegrey {
+	color:$ed-dk-bluegrey;
+}
