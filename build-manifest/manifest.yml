@@ -1,0 +1,6 @@
+applications:
+- name: elliotdahl-2015
+  memory: 128M
+  instances: 1
+  buildpack: staticfile_buildpack
+
